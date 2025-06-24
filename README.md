@@ -31,15 +31,15 @@ Copy
 Edit
 [ React App ]
      |
-     |----> [POST /posts] ----> Save post (text + image URL) to DynamoDB
+## [POST /posts] ----> Save post (text + image URL) to DynamoDB
      |
-     |----> [GET /posts] ----> Fetch all posts with like counts
+## [GET /posts] ----> Fetch all posts with like counts
      |
-     |----> [POST /posts/{postId}/like] ----> Toggle like
+## [POST /posts/{postId}/like] ----> Toggle like
      |
-     |----> [GET /upload-url] ----> Get pre-signed S3 URL for image upload
-                   |
-                   |----> [PUT to S3 using upload URL]
+## [GET /upload-url] ----> Get pre-signed S3 URL for image upload
+
+## Backend by default runs on 8000 PORT and frontend on 5173
 🖼️ Image Upload Flow
 React requests /upload-url to get a presigned S3 PUT URL.
 
@@ -84,7 +84,7 @@ CORS Configuration:
 json
 Copy
 Edit
-[
+## [
   {
     "AllowedHeaders": ["*"],
     "AllowedMethods": ["GET", "PUT", "POST"],
@@ -98,7 +98,7 @@ Bucket Policy for public image access:
 json
 Copy
 Edit
-{
+## {
   "Version": "2012-10-17",
   "Statement": [
     {
