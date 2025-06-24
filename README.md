@@ -32,8 +32,8 @@ Edit
 [ React App ]
      |
 ## [POST /posts] ----> Save post (text + image URL) to DynamoDB
-     
-![Screenshot 2025-06-24 172002](https://github.com/user-attachments/assets/f5fd6df7-c0a9-477f-bcdf-ef7515686412)
+     ![Screenshot 2025-06-24 172002](https://github.com/user-attachments/assets/b3950227-8470-4a84-898c-f587322c880c)
+
 
 ## [GET /posts] ----> Fetch all posts with like counts
      ![Screenshot 2025-06-24 172512](https://github.com/user-attachments/assets/5b7179a3-6b23-4b60-93ab-c153d2c50ae8)
