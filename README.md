@@ -32,14 +32,17 @@ Edit
 [ React App ]
      |
 ## [POST /posts] ----> Save post (text + image URL) to DynamoDB
-     ![Screenshot 2025-06-24 172002](https://github.com/user-attachments/assets/f57de0d8-665f-4cde-82c6-977e602169c2)
+     
+![Screenshot 2025-06-24 172002](https://github.com/user-attachments/assets/f5fd6df7-c0a9-477f-bcdf-ef7515686412)
 
 ## [GET /posts] ----> Fetch all posts with like counts
-     |
-## [POST /posts/{postId}/like] ----> Toggle like
-     |
-## [GET /upload-url] ----> Get pre-signed S3 URL for image upload
+     ![Screenshot 2025-06-24 172512](https://github.com/user-attachments/assets/5b7179a3-6b23-4b60-93ab-c153d2c50ae8)
 
+## [POST /post/{postId}/like] ----> Toggle like
+     ![Screenshot 2025-06-24 172838](https://github.com/user-attachments/assets/340bb180-b9bb-4703-a80d-0b0319647856)
+|
+## [GET /upload-url] ----> Get pre-signed S3 URL for image upload
+     
 ## Backend by default runs on 8000 PORT and frontend on 5173
 🖼️ Image Upload Flow
 React requests /upload-url to get a presigned S3 PUT URL.
