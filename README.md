@@ -135,10 +135,8 @@ App will be accessible at: http://localhost:5173
 
 ✅ Future Scope
 Add user authentication with Cognito or JWT
-
 Real-time updates via AWS AppSync or WebSocket
-
 Deployment to AWS Lambda via Serverless Framework
 
-🧠 Credits
-Built for Sellou AWS + React Coding Challenge
+🧠## Credits
+Built for Sellou AWS + React Coding Challenge!
