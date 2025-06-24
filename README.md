@@ -35,7 +35,7 @@ Edit
      |
      |----> [GET /posts] ----> Fetch all posts with like counts
      |
-     |----> [POST /posts/:id/like] ----> Toggle like
+     |----> [POST /posts/{postId}/like] ----> Toggle like
      |
      |----> [GET /upload-url] ----> Get pre-signed S3 URL for image upload
                    |
@@ -59,7 +59,7 @@ AWS_ACCESS_KEY=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
 AWS_REGION=ap-south-1
 S3_BUCKET=sellou-twitter
-📁 DynamoDB Tables
+## DynamoDB Tables
 Posts
 
 id (string, PK)
@@ -76,7 +76,7 @@ postId (string, PK)
 
 userId (string, SK)
 
-📦 S3 Bucket Setup
+## S3 Bucket Setup
 Enable public access on the bucket.
 
 CORS Configuration:
